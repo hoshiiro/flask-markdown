@@ -18,7 +18,7 @@ from setuptools import setup
 
 setup(
     name='Flask-Markdown',
-    version='dev',
+    version='0.4',
     url='http://github.com/dcolish/flask-markdown',
     license='BSD',
     author='Dan Colish',
@@ -26,7 +26,7 @@ setup(
     description='Small extension to make using markdown easy',
     long_description=__doc__,
     packages=['flaskext'],
-    namespace_packages=['flaskext'],
+    package_dir={'':'src'},
     zip_safe=False,
     platforms='any',
     install_requires=[
